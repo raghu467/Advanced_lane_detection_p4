@@ -65,6 +65,30 @@ The function then identifies 10 windows from which to identify lane pixels, each
 ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/5.2.lane_lines_sliding_window.png)<br>
 
 
+## 5. Radius of curvature of the lane and the position of the vehicle with respect to center
+
+I have used the following tuorial to implement this step of the pipeline [this website](http://www.intmath.com/applications-differentiation/8-radius-curvature.php) and calculated Radius of Curvature and Distance from Lane Center Calculation
+This code can be found under function compute_curveature in the section In [264]
+
+
+The vehicle position with respect to the center of the lane is calculated with the following lines of code:
+
+```
+lane_center_position = (r_fit_x_int + l_fit_x_int) /2
+center_dist = (car_position - lane_center_position) * x_meters_per_pix
+
+```
+
+
+## 5. Overlay lane and text on the original Image
+
+This part of the code can be found under function draw_lane and draw_text under section In [299].
+The following is the final output of the pipeline for all the test images.
+
+
+![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/6.final_pipeline.png)<br>
+
+
 
 
 
