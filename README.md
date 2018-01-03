@@ -55,9 +55,13 @@ The following is the output of the treshold stage<br>
 The functions Find_Lanes_Sliding_window is present in the section In [263] in the jupyter notebook.
 In this function we first detect the histogram of the binarywarped image which is the output of the previous step.
 Now we that we have histogram we find the local maxima on the left and right half of the histogram. The x cordinate of the left maxima and right (base x locations for left and right lanes).
+![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/5.1.histogram.png)<br>
+ 
+ 
+ 
 The function then identifies 10 windows from which to identify lane pixels, each one centered on the midpoint of the pixels from the window below. We follow this procedure by moving the window up-wards till we reach the top of the image. Pixels belonging to each lane line are identified and the Numpy polyfit() method fits a second order polynomial to each set of pixels. The image below demonstrates how this process identifies the lanes.
 
- ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/5.pipeline_output_all_images.png)<br>
+![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/5.2.lane_lines_sliding_window.png)<br>
 
 
 
