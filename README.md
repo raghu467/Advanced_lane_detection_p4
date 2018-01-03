@@ -92,5 +92,9 @@ The following is the final output of the pipeline for all the test images.
 
 
 
+## 6. Issues and problems encountered
+
+most of the footage used in this porject is based on normal road conditions but having to detect lanes under snow conitions can fail using the current implementation also most of the problems encountered were due to shadows and light condition. This implementation can be futhrer improved to make amore robust algorithm using dynamic tresholding and also implment condifence level approach when one of the lanes are mssing. Given time I am confident this implmentation can be further improved.
+
 
  
