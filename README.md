@@ -31,11 +31,24 @@
  
  In this step we use getPerspectiveTransform to transfor the src points on the images bounding the lane to change the perspective using  the warpPerspective function from the  cv2 library.
  
-## 3.Tresholding 
-The following is the output of the treshold stage.
- ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/5.pipeline_output_all_images.png)
+The src and dst points are hardcoded in the code to the following values.
+
+src_pts = np.float32([(575,464),
+                  (704,464), 
+                  (250,680), 
+                  (1040,680)])
+dst_pts = np.float32([(450,0),
+                  (w-450,0),
+                  (450,h),
+                  (w-450,h)])
  
- I have experimented with several combinations of thresholding techniques and finally used lab_bthresh and hls_lthresh (This function can be found in the jupyter notebook file under section(In [112]))
+ The bounding box defining the src points on the image are drawin the image displyed above.
+## 3.Tresholding 
+The following is the output of the treshold stage<br>
 
+ ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/5.pipeline_output_all_images.png)<br>
+ 
+ I have experimented with several combinations of thresholding techniques and finally used lab_bthresh and hls_lthresh (This function can be found in the jupyter notebook file under section(In [112]))<br>
 
+## 3.Tresholding 
  
