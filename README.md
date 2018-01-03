@@ -11,11 +11,11 @@
  
  The following are the oroginal image and the un-distorted.
  
- ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/2.un-distorted.png)
+ ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/2.%20Distor_un_Distort.png)
  
  The following are the test_image and the corresponding un-distorted image
  
- ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/3.un-distorted.png)
+ ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/3.%20Distor_un_Distort.png)
  
  
  
