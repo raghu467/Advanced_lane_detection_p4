@@ -84,7 +84,8 @@ center_dist = (car_position - lane_center_position) * x_meters_per_pix
 
 This part of the code can be found under function draw_lane and draw_text under section In [299].
 The following is the final output of the pipeline for all the test images.
-
+ 
+ Also the output video can be found in the repository [out.mp4](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/out.mp4)
 
 ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/6.final_pipeline.png)<br>
 
