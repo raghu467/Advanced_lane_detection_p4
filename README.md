@@ -9,9 +9,6 @@
  The following are the output of of the findChessboardCorners drawn on the chess-board images which are used for calibration.
  ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/1.Draw_corners.png)
  
- The following are the oroginal image and the un-distorted.
- 
- ![alt tag](https://github.com/raghu467/Advanced_lane_detection_p4/blob/master/Readme_images/2.%20Distor_un_Distort.png)
  
  The following are the test_image and the corresponding un-distorted image
  
